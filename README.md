@@ -1,6 +1,6 @@
 # attention-as-grounding
 
-# Citation
+
 
 ## Citation
 
