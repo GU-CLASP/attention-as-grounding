@@ -11,17 +11,17 @@ This paper can be also found [here](acl-2022/paper-1844.pdf).
 If you find our models or results useful, please cite as follows:
 
 ```
-@inproceedings{madureira-schlangen-2020-incremental,
-    title = "Incremental Processing in the Age of Non-Incremental Encoders: An Empirical Assessment of Bidirectional Models for Incremental {NLU}",
-    author = "Madureira, Brielen  and
-      Schlangen, David",
-    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-    month = nov,
-    year = "2020",
-    address = "Online",
+@inproceedings{ilinykh-dobnik-2022-attention,
+    title = "Attention as Grounding: Exploring Textual and Cross-Modal Attention on Entities and Relations in Language-and-Vision Transformer",
+    author = "Ilinykh, Nikolai  and
+      Dobnik, Simon",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2022",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2020.emnlp-main.26",
-    doi = "10.18653/v1/2020.emnlp-main.26",
-    pages = "357--374",
-}   
+    url = "https://aclanthology.org/2022.findings-acl.320",
+    pages = "4062--4073",
+    abstract = "We explore how a multi-modal transformer trained for generation of longer image descriptions learns syntactic and semantic representations about entities and relations grounded in objects at the level of masked self-attention (text generation) and cross-modal attention (information fusion). We observe that cross-attention learns the visual grounding of noun phrases into objects and high-level semantic information about spatial relations, while text-to-text attention captures low-level syntactic knowledge between words. This concludes that language models in a multi-modal task learn different semantic information about objects and relations cross-modally and uni-modally (text-only). Our code is available here: https://github.com/GU-CLASP/attention-as-grounding.",
+}
 ```
