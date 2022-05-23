@@ -1,6 +1,6 @@
 # attention-as-grounding
 
-
+Model checkpoints and code to replicate results in the paper will be released very soon.
 
 ## Citation
 
